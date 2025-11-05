@@ -7,7 +7,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./api.yaml:/tmp/openapi.yaml
+      - ./docs/openapi.yaml:/tmp/openapi.yaml
     environment:
       SWAGGER_FILE: /tmp/openapi.yaml
 
@@ -19,4 +19,4 @@ services:
     environment:
       SWAGGER_JSON: /openapi.yaml
     volumes:
-      - ./openapi.yaml:/usr/share/nginx/html/openapi.yaml
+      - ./docs/openapi.yaml:/usr/share/nginx/html/openapi.yaml
