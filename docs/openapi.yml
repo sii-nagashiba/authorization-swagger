@@ -10,9 +10,9 @@ info:
 servers:
   - url: https://apis.sii-japan.jp/v1
     description: 本番環境
-  - url: https://apisーstg.sii-japan.jp/v1
+  - url: https://apis-stg.sii-japan.jp/v1
     description: ステージング環境
-  - url: https://apisーdev.sii-japan.jp/v1
+  - url: https://apis-dev.sii-japan.jp/v1
     description: 開発環境
   - url: https://apis.sii-japan.local/v1
     description: ローカル環境
