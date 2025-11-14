@@ -56,7 +56,7 @@ paths:
         '404':
           description: ユーザーが存在しない場合のエラー
 
-  /register:
+  /clients/store:
     post:
       summary: クライアント登録
       tags:
@@ -83,7 +83,7 @@ paths:
         '500':
           description: サーバーエラー
 
-  /clients/{id}/modify:
+  /clients/{id}/update:
     put:
       summary: クライアント変更
       tags:
@@ -118,7 +118,7 @@ paths:
         '500':
           description: サーバーエラー
 
-  /clients/{id}/remove:
+  /clients/{id}/delete:
     delete:
       summary: クライアント削除
       tags:
