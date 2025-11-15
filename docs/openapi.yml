@@ -201,11 +201,7 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                    example: "SUCCESS"
+                $ref: '#/components/schemas/Payload'
         '400':
           description: リクエストが不正です
         '404':
